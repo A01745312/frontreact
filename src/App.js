@@ -33,7 +33,7 @@ class App extends React.Component {
         password: this.state.password
       }),
       headers: {
-        'Content-Type': 'appication/json'
+        'Content-Type': 'application/json'
       }
     }).then(() => {
       console.log('Lo logre')
